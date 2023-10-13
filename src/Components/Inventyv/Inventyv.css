@@ -37,19 +37,19 @@
     grid-row: 1/3;
     height:400px;
     width:600px;
-    background-image:url('/src/assets/asset\ 2.jpeg');
+    background-image:url(../../assets/asset2.jpeg);
 }
 
 .health-care{
     height:195px;
     width:350px;
-    background-image:url('/src/assets/asset\ 3.jpeg');
+    background-image:url(../../assets/asset3.jpeg);
     background-position:center;
 }
 .carrers{
     height:195px;
     width:350px;
-    background-image:url('/src/assets/asset\ 4.jpeg');
+    background-image:url('../../assets/asset4.jpeg');
     background-position:center;
 }
 .headings{
