@@ -2,7 +2,7 @@ body{
     font-family:var(--font-family);
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -14,17 +14,22 @@ body{
 .navlinks{
     margin-top:30px;
 }
-
 .img{
     height:60px;
 }
-
 
 .links{
     text-decoration:none;
     margin-inline:20px;
     color:#302c2c;
+    padding:10px;
 }
+
+.links:hover{
+    background-color:#489cc35e;
+    padding:10px;
+}
+
 
 .navMenu{
     display: none;

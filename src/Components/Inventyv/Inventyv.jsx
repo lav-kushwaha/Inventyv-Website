@@ -15,7 +15,7 @@ const Inventyv = () => {
             <div className="taxt">
                 <h3 className='headings'>Tax Software Development</h3>
                 <p>MyTAXPrepOffice is a reliable and accurate tax software solution with simple, but powerful productivity tools aimed at making tax preparation fast and easy. </p>
-                <Link className='learn-more' to="#Learnmore">Learn More</Link>
+                <Link className='learn-more' to="coming-soon">Learn More</Link>
             </div>
         </div>
         <div className="health-care">
@@ -28,7 +28,7 @@ const Inventyv = () => {
            <div className="health">
            <h3 className='headings'>Careers at Inventyv</h3>
             <p>Join our talented team of dedicated professionals.</p>
-            <Link  className="learn-more" to="#FindCareer">Find a Career</Link>
+            <Link  className="learn-more" to="coming-soon">Find a Career</Link>
            </div>
         </div>
     </div>
