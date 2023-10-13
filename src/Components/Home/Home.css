@@ -2,7 +2,7 @@
     background-color:#045374;
     position: absolute;
     display: inline;
-    height: 24.4rem;
+    height:55.1vh;
     color: #fff;
     padding-right:70px;
 }
@@ -13,7 +13,7 @@
     margin-left:170px;
 }
 .home-tittle h2{
-    margin-bottom:20px;
+    margin-bottom:19px;
     font-size:50px;
 }
 
