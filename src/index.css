@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --headind:#489cc3;
+}
+body{
+  font-family:var(--font-family);
+}
+
+NavLink{
+  text-decoration: none;
+}
+
+
+
+
+
+
+

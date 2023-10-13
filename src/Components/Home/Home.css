@@ -1,0 +1,22 @@
+.home-heading{
+    background-color:#045374;
+    position: absolute;
+    display: inline;
+    height: 24.4rem;
+    color: #fff;
+    padding-right:70px;
+}
+
+.home-tittle{
+  margin-top:80px;
+}
+.home-tittle p{
+    margin-left:170px;
+}
+.home-tittle h2{
+    margin-bottom:20px;
+    font-size:50px;
+}
+
+
+

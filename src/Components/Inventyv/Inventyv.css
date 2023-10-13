@@ -1,0 +1,90 @@
+.inventyv{
+    text-align: center;
+    margin-top:30px;
+
+}
+.inventyv span{
+    font-weight: 700;
+    font-size:40px;
+    border-bottom:3.2px solid #318eb6;
+    padding-bottom:5px;
+    padding-inline:10px;
+}
+.inventyv p{
+    margin-top:40px;
+    text-align: center;
+    max-width:910px;
+    margin-left:20rem;
+    padding-inline:40px;
+}
+.container{
+   margin-top:20px;
+   margin-left:100px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+.image-box{
+   text-align: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns:200px 200px;
+    grid-template-rows:200px 200px;
+    row-gap:4px;
+    column-gap:285px;
+}
+.taxt-software{
+    grid-row: 1/3;
+    height:400px;
+    width:600px;
+    background-image:url('/src/assets/asset\ 2.jpeg');
+}
+
+.health-care{
+    height:195px;
+    width:350px;
+    background-image:url('/src/assets/asset\ 3.jpeg');
+    background-position:center;
+}
+.carrers{
+    height:195px;
+    width:350px;
+    background-image:url('/src/assets/asset\ 4.jpeg');
+    background-position:center;
+}
+.headings{
+    color:hsl(198, 58%, 45%);
+    padding-bottom:20px;
+}
+
+.taxt{
+    margin-top:10rem;
+    background-color: #f7f7f7ce;
+    width:350px;
+    height:240px;
+    padding-inline:20px;
+    padding-top:30px;
+    margin-left:20px;
+    text-align: justify;
+    letter-spacing:0.5px;
+}
+.taxt p{
+   padding-bottom:20px;
+}
+
+.learn-more{
+    color:black;
+}
+
+.health{
+    background-color: #f7f7f7d2;
+    margin-inline:40px;
+    margin-block:25px;
+    width:280px;
+    height:160px;
+    text-align:justify;
+    padding:20px;
+}
+.health p{
+    padding-bottom:20px;
+}
