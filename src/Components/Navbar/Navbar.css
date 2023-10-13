@@ -1,4 +1,4 @@
-body{
+body {
     font-family:var(--font-family);
 }
 
@@ -6,16 +6,13 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-block:10px;
-    gap:15%;
-    position: relative;
+    gap:10%;
+    /* position: relative; */
+    padding-block:9px;
+    border-bottom:5px ridge rgba(4, 4, 4, 0.632);
 }
-
 .navlinks{
-    margin-top:30px;
-}
-.img{
-    height:60px;
+    margin-top:10px;
 }
 
 .links{
@@ -23,6 +20,10 @@ body{
     margin-inline:20px;
     color:#302c2c;
     padding:10px;
+}
+.img{
+    margin-left:50px;
+    height:60px;
 }
 
 .links:hover{
@@ -52,6 +53,7 @@ body{
     height:100vh;
     width:100vw;
     background-color: #0d2130;
+    z-index:3;
 }
 }
 
