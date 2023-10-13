@@ -5,7 +5,7 @@ const Inventyv = () => {
   return (
     <>
     <div className="inventyv">
-    <span>Lav Kushwaha</span>
+    <span>We're Inventyv</span>
     <p> 
      At Inventyv, we build advanced web and mobile applications using the latest technologies. We're focused on delivering high-quality services that help our clients achieve business goals. Our objective is to solve our clients' business challenges...technology is just a tool.</p>
     </div>
