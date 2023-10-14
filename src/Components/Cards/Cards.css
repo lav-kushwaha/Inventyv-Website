@@ -48,3 +48,14 @@
     text-align:start;
     padding-inline:20px;  
 }
+
+@media screen and (max-width:600px) {
+   .containers{
+      width:160vw;
+   }
+   .containers>h2{
+    width:100%;
+    margin-left:80px;
+   }
+  
+ }
