@@ -1,10 +1,18 @@
+.home-img{
+  width:100%;
+ }
+ .home-img img{
+    width:55%;
+ }
+
 .home-heading{
     background-color:#045374;
     position: absolute;
     display: inline;
-    height:55.1vh;
+    height:51.2vh;
     color: #fff;
-    padding-right:70px;
+    padding-right:90px;
+    padding-left:20px;
 }
 .home-tittle{
   margin-top:80px;

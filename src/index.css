@@ -5,6 +5,8 @@
 }
 body{
   font-family:var(--font-family);
+    height:100%;
+    width:100%;
 }
 
 NavLink{

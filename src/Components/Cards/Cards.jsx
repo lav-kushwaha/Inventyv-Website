@@ -6,6 +6,7 @@ const Cards = () => {
   return (
     <div className="containers">
         <h2>Inventyv Provides a Wide Range of Services Supporting the All-round Growth of Our Customers’ Businesses.</h2>
+        <div className="card-container">
       <div className="cards">
       <div className="application">
           <img src={img1} alt="img"/>
@@ -36,6 +37,7 @@ const Cards = () => {
         <img src={img6} alt="img"/>
         <h3>Security Specialization</h3>
         <p>Our security experts address Cyber security, Privacy, Cloud Infrastructure and Functional Safety Requirements to build trusted, connected platforms, conforming to the leading edge frameworks such as ISO 27000, NIST CyberSecurity Framework and others.</p>
+        </div>
         </div>
       </div>
     </div>
