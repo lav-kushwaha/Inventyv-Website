@@ -3,13 +3,15 @@
  }
  .home-img img{
     width:55%;
+    height:49.6vh;
+
  }
 
 .home-heading{
     background-color:#045374;
     position: absolute;
     display: inline;
-    height:51.2vh;
+    height:49.6vh;
     color: #fff;
     padding-right:90px;
     padding-left:20px;
