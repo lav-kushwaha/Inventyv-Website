@@ -35,7 +35,8 @@
     .nav{
         width:240vw;
         position: relative;
-        min-height:15vh;
+        min-height:16vh;
+        border-bottom: transparent;
         background-color: #0d2130;
     }
     .img{
@@ -57,7 +58,7 @@
     }
     .navMenu{
         display: initial;
-        margin-left:150px;
+        margin-left:210px;
         color:white;
     }
     .menu-bar{
@@ -65,7 +66,7 @@
         flex-direction: column;
         position: absolute;
         right:0;
-        top:80px;
+        top:95px;
         background-color: #0d2130;
         min-width:100%;
         min-height:300vh;

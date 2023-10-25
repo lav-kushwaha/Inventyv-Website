@@ -40,36 +40,38 @@
       font-size:2vw;
       margin-top:100vmin;
       width:240%;
-      height:140vh;
+      min-height:190vh;
       overflow: hidden;
     }
     .home-img img{
       width:240%;
       z-index:-1;
-      min-height:100vh;
+      min-height:125vh;
       overflow: hidden;
       margin-top:30vh;
       position: relative;
    }
    .home-tittle{
     font-size:10vh;
-    margin-top:30px;
+    min-height:20vh;
     overflow: none;
    }
    .home-tittle p{
      width:100%;
      font-size:10vw;
      margin-left:20px;
+     margin-bottom:30vh;
    }
    .home-tittle h2{
-     margin-top:52vmin;
+     margin-top:60vmin;
      margin-left:20px;
+     margin-bottom:40vh;
+
    }
   .home-heading>p{
     width:90%;
     font-size:9.2vw;
     margin-left:20px;
-    margin-top:220px;
   }
   
  }
