@@ -25,7 +25,7 @@
    align-items:center;
 }
 .image-box{
-   text-align: center;
+    text-align: center;
     display: grid;
     place-items: center;
     grid-template-columns:200px 200px;
@@ -90,15 +90,82 @@
 }
 
 @media screen and (max-width:600px) {
+    .inventyv{
+        width:220%;
+        margin-left:50px; 
+    }
     .inventyv span{
-        margin-left:260px; 
+        font-size:12vw;
+        padding-inline:50vw;
     }
     .inventyv>p{
-        width:100%;
-        display: flex;
-        margin-left: 0%;
-        font-size:20px;
-        margin-right:120px;
+      width:100%;
+      margin-left:7px;
+      font-size:9.5vw;
     }
+    .container{
+        width:200%;
+        margin-left:70px;
+        /* height:200; */
+    }
+    .image-box{
+        grid-template-columns:repeat(1,1fr);
+        height:270vh;
+        width:90%;
+        margin-top:8vw;
+        background-position:200%;
+    }
+    .taxt-software{
+        position: relative;
+        height:44vh;
+        background-position:10%;
+    }
+    .taxt{
+        position:absolute;
+        margin-top:100vw;
+        width:100%;
+        height:44vh;
+        margin-left:0vw;
+        font-size:7vw;
+        background-color: transparent;
+    }
+    .health-care{
+        margin-top:10vw;
+        position: relative;
+        height:44vh;
+        width:85%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:10%;
+    }
+    .health{
+        position:absolute;
+        margin-top:100vw;
+        width:100%;
+        height:30vh;
+        margin-left:0vw;
+        font-size:7vw;
+        background-color: transparent;
+    }
+    .carrers{
+        margin-top:-140vw;
+        position: relative;
+        height:40vh;
+        width:85%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:10%;
+    }
+    .carrer-health{
+        position:absolute;
+        margin-top:100vw;
+        width:100%;
+        height:30vh;
+        margin-left:0vw;
+        font-size:7vw;
+        background-color: transparent;
+    }
+
+
   
  }

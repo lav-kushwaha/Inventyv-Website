@@ -11,10 +11,10 @@ const Home = () => {
         <img src={Image} alt="Home-Image" />
         <div className="home-heading">
          <div className="home-tittle">
-         <p>Software Development Center</p>
+          <p>Software Development Center</p>
           <h2><pre>      INVENTING</pre>A BETTER FUTURE</h2>
-          <h7>Committed to leverage the power of the latest technologies to deliver the best-in-class products and business solutions.</h7>
          </div>
+         <p>Committed to leverage the power of the latest technologies to deliver the best-in-class products and business solutions.</p>
         </div>
       </div>
       <Inventyv/>

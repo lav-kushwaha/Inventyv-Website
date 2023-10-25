@@ -3,15 +3,14 @@
  }
  .home-img img{
     width:55%;
-    height:49.6vh;
-
+    height:50vh;
  }
 
 .home-heading{
     background-color:#045374;
     position: absolute;
     display: inline;
-    height:49.6vh;
+    height:50vh;
     color: #fff;
     padding-right:90px;
     padding-left:20px;
@@ -28,9 +27,50 @@
 }
 
 @media screen and (max-width:600px) {
+    .home-img{
+      width:240%;
+      overflow: hidden;
+   }
     .home-heading{
-      display: none;
+      display: initial;
+      background-color:transparent;
+      position: absolute;
+      top: 0;
+      z-index:-1;
+      font-size:2vw;
+      margin-top:100vmin;
+      width:240%;
+      height:140vh;
+      overflow: hidden;
     }
+    .home-img img{
+      width:240%;
+      z-index:-1;
+      min-height:100vh;
+      overflow: hidden;
+      margin-top:30vh;
+      position: relative;
+   }
+   .home-tittle{
+    font-size:10vh;
+    margin-top:30px;
+    overflow: none;
+   }
+   .home-tittle p{
+     width:100%;
+     font-size:10vw;
+     margin-left:20px;
+   }
+   .home-tittle h2{
+     margin-top:52vmin;
+     margin-left:20px;
+   }
+  .home-heading>p{
+    width:90%;
+    font-size:9.2vw;
+    margin-left:20px;
+    margin-top:220px;
+  }
   
  }
 

@@ -25,7 +25,7 @@ const Inventyv = () => {
            </div>
        </div>
         <div className="carrers">
-           <div className="health">
+           <div className="health carrer-health">
            <h3 className='headings'>Careers at Inventyv</h3>
             <p>Join our talented team of dedicated professionals.</p>
             <Link  className="learn-more" to="coming-soon">Find a Career</Link>
