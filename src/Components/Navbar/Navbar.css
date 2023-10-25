@@ -73,6 +73,7 @@
         font-size:10vw;
         gap:20vw;
         padding-top:30vh;
+        z-index:99;
     }
 }
 
