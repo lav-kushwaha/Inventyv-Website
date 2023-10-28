@@ -55,11 +55,51 @@
 
 @media screen and (max-width:600px) {
    .containers{
-      width:160vw;
+      width:240%;
+      height:100%;
+      margin-top:15vh;
+      background-position: none;
+      background-size:cover;
+    }
+    .containers>h2{
+        padding-block:16vh;
+        text-align: center;
+        margin-inline:25px;
+        font-size:18.2vw;
+
+     }
+    .card-container{
+        width:90%;
+        margin-top:20vh;
+        margin-left:15vw;
+    }
+   .cards{
+      grid-template-columns:100%;
+      width:200vw;
+    
    }
-   .containers>h2{
-    width:100%;
-    margin-left:80px;
+
+   .application{
+       height:90vh;
+       width:200vw;
+       margin-right:20vw;
+       box-shadow: transparent 0 0 0 20px;
+       background-color:#489CC380;
+       padding:20px;
+     
    }
+   .application img{
+    height:28%;
+    margin-left:60vw;
+   }
+   .application h3{
+     font-size:10vw;
+     text-align: center;
+    }
+    .application p{
+        font-size:9vw;
+        text-align: center;
+        margin-top:2vh;
+    }
   
  }

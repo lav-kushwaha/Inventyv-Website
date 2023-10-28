@@ -15,20 +15,16 @@ const Menu = () => (
   </>
 )
 const Navbar = () => {
-   const[toggleMenu,setToggleMenu] = useState(false);
+   const[toggleMenu,setToggleMenu] = useState(true);
   return (
-   <div className="nav">
+   <div className={`nav ${toggleMenu?"null":"resp-nav resp-navmenu"}`}>
     <Link className='img-link' to="/"><img className="img" src={Logo} alt="Company-Logo" /></Link>
     <div className="navlinks">
-    <NavLink className="links" to="coming-soon">Company</NavLink>
-    <NavLink className="links" to="coming-soon">Technologies</NavLink>
-    <NavLink className="links" to="coming-soon">Services</NavLink>
-    <NavLink className="links" to="coming-soon">Careers</NavLink>
-    <NavLink className="links" to="coming-soon">Contact Us</NavLink>
+     <Menu/>
     </div>
     <div className="navMenu">
        {toggleMenu?<FiMenu size={80} onClick={()=>setToggleMenu(false)}/>
-       :<HiXMark size={80} onClick={()=>setToggleMenu(true)}/>}
+       :<HiXMark  size={80} onClick={()=>setToggleMenu(true)}/>}
        {!toggleMenu && (
          <div className="menu-bar">
           <Menu className="menulinks"/>

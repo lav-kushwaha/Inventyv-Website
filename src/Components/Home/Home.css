@@ -38,41 +38,36 @@
       top: 0;
       z-index:-1;
       font-size:2vw;
-      margin-top:100vmin;
+      margin-top:85vmin;
       width:240%;
       min-height:190vh;
       overflow: hidden;
+     
     }
     .home-img img{
       width:240%;
       z-index:-1;
-      min-height:125vh;
+      min-height:150vh;
       overflow: hidden;
       margin-top:30vh;
       position: relative;
-   }
-   .home-tittle{
-    font-size:10vh;
-    min-height:20vh;
-    overflow: none;
+      
    }
    .home-tittle p{
      width:100%;
-     font-size:10vw;
-     margin-left:20px;
-     margin-bottom:30vh;
+     font-size:12vw;
+     margin-left:15vw;
+     margin-bottom:42vh;
    }
-   .home-tittle h2{
-     margin-top:60vmin;
-     margin-left:20px;
-     margin-bottom:40vh;
-
+   .home-tittle>h2{
+     margin:16vw 15vw 42vh 16vw;
+     font-size:15vw;
    }
   .home-heading>p{
     width:90%;
-    font-size:9.2vw;
-    margin-left:20px;
+    font-size:10vw;
+    margin-left:18vw;
+   
   }
-  
  }
 

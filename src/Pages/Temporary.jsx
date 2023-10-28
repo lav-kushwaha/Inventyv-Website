@@ -2,7 +2,7 @@ import React from 'react'
 
 const Temporary = () => {
   return (
-   <h1 style={{textAlign:'center', marginTop:'100px'}}>Coming Soon :)</h1>
+   <h1 style={{display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}}>Coming Soon :)</h1>
   )
 }
 export default Temporary

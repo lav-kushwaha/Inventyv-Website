@@ -17,7 +17,7 @@
     background-color: #1b1515;
     color:rgba(255, 255, 255, 0.888);
     padding:80px;
-    column-gap:80px;
+    column-gap:13vw;
 }
 
 .footer h3{
@@ -44,4 +44,52 @@
 
 .footer-links{
     color:white;
+}
+
+
+@media screen and (max-width:600px) {
+    .footer{
+        width:240vw;       
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap:20vw;
+        margin-bottom:16vh;
+    }
+    .footer h3{
+       font-size:13vw;
+    }
+    .footer h4{
+        font-size:10vw;
+    }
+
+    .left>p{
+        width:100%;
+        font-size:10vw;
+    }
+    .middle{
+       width:100%;
+       margin-bottom:10vh;
+    }
+    .middle p{
+        font-size:10vw;
+    }
+    .right{
+        width:100%;
+    }
+    .right p{
+        font-size:10vw;
+    }
+    
+    .footer-links{
+       font-size:10vw;
+    }
+    .footer>p{
+        font-size:10vw;
+        padding-bottom:4vh;
+        width:90%;
+        margin-left:10vw;
+    }
+
 }
