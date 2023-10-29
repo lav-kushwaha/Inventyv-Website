@@ -62,7 +62,7 @@
     }
     .navMenu{
         display: initial;
-        margin-left:210px;
+        margin-left:25%;
         transition:all 0.2s ease-in;
     }
     .resp-navmenu{

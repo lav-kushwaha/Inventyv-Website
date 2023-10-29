@@ -49,12 +49,12 @@
 
 @media screen and (max-width:600px) {
     .footer{
-        width:240vw;       
+        width:240vw;  
     }
     .footer-container{
         flex-direction: column;
         align-items: flex-start;
-        row-gap:20vw;
+        row-gap:25vw;
         margin-bottom:16vh;
     }
     .footer h3{
